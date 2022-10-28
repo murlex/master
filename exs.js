@@ -42,7 +42,7 @@ console.log(ex4.ddd);
 
 console.log ("ex5 ----------------------");
 let ex5 = JSON.parse(fs.readFileSync('ex5.json'));
-console.log{ex5};
+console.log(ex50)
 // { a : {b : c} }
 console.log(ex5.a);
 // { b : c }
