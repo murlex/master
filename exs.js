@@ -77,4 +77,3 @@ console.log(ex7.b[0]);
 // { q1 : queue, count : 1 }
 console.log(ex7.b[1]);
 // { q1 : shmueue, count : 3 } ] }
-
