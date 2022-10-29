@@ -42,10 +42,12 @@ console.log(ex4.ddd);
 
 console.log ("ex5 ----------------------");
 let ex5 = JSON.parse(fs.readFileSync('ex5.json'));
-console.log(ex50)
+console.log(ex5);
 // { a : {b : c} }
 console.log(ex5.a);
 // { b : c }
+console/log(ex5.b);
+// c
 
 console.log ("ex6 ------------------------");
 let ex6 = JSON.parse(fs.readFileSync('ex6.json'));
@@ -77,3 +79,15 @@ console.log(ex7.b[0]);
 // { q1 : queue, count : 1 }
 console.log(ex7.b[1]);
 // { q1 : shmueue, count : 3 } ] }
+console.log(ex7.a[0].b[0]);
+// { a : [ { rrr : 1, zzz : ooo } ],
+// b : [ { q1 : queue, count : 1 } ] }
+console.log(ex7.a[0].b[1]);
+// { a : [ { rrr : 1, zzz : ooo } ],
+// b : [ { q1 : shmueue, count : 3 } ] }
+console.log(ex7.a[1].b[0]);
+// { { mmm : uuu123, hfhf : true, p1p2p3p4 : 09876 } ],
+// b : [ { q1 : queue, count : 1 } ] }
+console.log(ex7.a[1].b[1]);
+// { a : [ { mmm : uuu123, hfhf : true, p1p2p3p4 : 09876 } ],
+// b : [ { q1 : shmueue, count : 3 } ] }
