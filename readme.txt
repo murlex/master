@@ -11,5 +11,5 @@ Enjoy :)
 Ex8:
 These are the events happened during football match.
 Print on console:
-1. What 4th 'event' happened, who was the player, what minute it happened on
+1. What is 4th 'event' happened, who was the player, what minute it happened on
 2. 8th 'event' on 79th minute print the team that got yellow card.
