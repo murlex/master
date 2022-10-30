@@ -45,8 +45,8 @@ let ex5 = JSON.parse(fs.readFileSync('ex5.json'));
 console.log(ex5);
 // { a : {b : c} }
 console.log(ex5.a);
-// { b : c }
-console/log(ex5.b);
+// { b : c }מ
+console.log(ex5.b);
 // c
 
 console.log ("ex6 ------------------------");
@@ -57,7 +57,7 @@ console.log(ex6.a);
 // [ a, b, c]
 console.log(ex6.a[0]);
 // a
-consolele.log(ex6.a[1]);
+console.log(ex6.a[1]);
 // b
 console.log(ex6.a[2]);
 // c
@@ -70,7 +70,7 @@ console.log(ex7);
 console.log(ex7.a);
 // [ { rrr : 1, zzz : ooo }, { mmm : uuu123, hfhf : true, p1p2p3p4 : 09876 } ]
 console.log(ex7.a[0]);
-// { 1, zzz : ooo }
+// { rrr : 1, zzz : ooo }
 console.log(ex7.a[1]);
 // { uuu123, hfhf : true, p1p2p3p4 : 09876 } 
 console.log(ex7.b);
@@ -78,7 +78,7 @@ console.log(ex7.b);
 console.log(ex7.b[0]);
 // { q1 : queue, count : 1 }
 console.log(ex7.b[1]);
-// { q1 : shmueue, count : 3 } ] }
+// { q1 : shmueue, count : 3 } 
 console.log(ex7.a[0].b[0]);
 // { a : [ { rrr : 1, zzz : ooo } ],
 // b : [ { q1 : queue, count : 1 } ] }
