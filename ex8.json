@@ -1,0 +1,190 @@
+{
+    "data": [
+      {
+        "event": "GOAL",
+        "id": "521210",
+        "minute": 23,
+        "player_name": "Hirving Lozano",
+        "score": [
+          1,
+          0
+        ],
+        "sort": 3,
+        "team": 1
+      },
+      {
+        "events": [
+          {
+            "event": "GOAL",
+            "id": "521210",
+            "minute": 27,
+            "player_name": "Hirving Lozano",
+            "score": [
+              2,
+              0
+            ],
+            "sort": 1,
+            "team": 1
+          },
+          {
+            "event": "GOAL_ASSIST",
+            "id": "46104",
+            "minute": 27,
+            "player_name": "Dries Mertens",
+            "score": [
+              2,
+              0
+            ],
+            "sort": 1,
+            "team": 1
+          }
+        ],
+        "minute": 27,
+        "score": [
+          2,
+          0
+        ],
+        "sort": 1,
+        "team": 1
+      },
+      {
+        "events": [
+          {
+            "event": "GOAL",
+            "id": "415539",
+            "minute": 30,
+            "player_name": "Matteo Politano",
+            "score": [
+              3,
+              0
+            ],
+            "sort": 1,
+            "team": 1
+          },
+          {
+            "event": "GOAL_ASSIST",
+            "id": "605654",
+            "minute": 30,
+            "player_name": "Fabian",
+            "score": [
+              3,
+              0
+            ],
+            "sort": 1,
+            "team": 1
+          }
+        ],
+        "minute": 30,
+        "score": [
+          3,
+          0
+        ],
+        "sort": 1,
+        "team": 1
+      },
+      {
+        "event": "YELLOW_CARD",
+        "id": "127374",
+        "minute": 38,
+        "player_name": "Rafael Toloi",
+        "sort": 1,
+        "team": 2
+      },
+      {
+        "events": [
+          {
+            "event": "GOAL",
+            "id": "687681",
+            "minute": 43,
+            "player_name": "Victor Osimhen",
+            "score": [
+              4,
+              0
+            ],
+            "sort": 3,
+            "team": 1
+          },
+          {
+            "event": "GOAL_ASSIST",
+            "id": "50065",
+            "minute": 43,
+            "player_name": "David Ospina",
+            "score": [
+              4,
+              0
+            ],
+            "sort": 3,
+            "team": 1
+          }
+        ],
+        "minute": 43,
+        "score": [
+          4,
+          0
+        ],
+        "sort": 3,
+        "team": 1
+      },
+      {
+        "event": "YELLOW_CARD",
+        "id": "518346",
+        "minute": 45,
+        "minute_extra": 1,
+        "player_name": "Robin Gosens",
+        "sort": 6,
+        "team": 2
+      },
+      {
+        "events": [
+          {
+            "event": "GOAL",
+            "id": "665164",
+            "minute": 69,
+            "player_name": "Sam Lammers",
+            "score": [
+              4,
+              1
+            ],
+            "sort": 3,
+            "team": 2
+          },
+          {
+            "event": "GOAL_ASSIST",
+            "id": "789066",
+            "minute": 69,
+            "player_name": "Cristian Romero",
+            "score": [
+              4,
+              1
+            ],
+            "sort": 3,
+            "team": 2
+          }
+        ],
+        "minute": 69,
+        "score": [
+          4,
+          1
+        ],
+        "sort": 3,
+        "team": 2
+      },
+      {
+        "event": "YELLOW_CARD",
+        "id": "521210",
+        "minute": 79,
+        "player_name": "Hirving Lozano",
+        "sort": 1,
+        "team": 1
+      },
+      {
+        "event": "YELLOW_CARD",
+        "id": "260964",
+        "minute": 81,
+        "player_name": "Berat Djimsiti",
+        "sort": 5,
+        "team": 2
+      }
+    ],
+    "status": 200
+  }
