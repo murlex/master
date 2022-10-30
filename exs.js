@@ -72,22 +72,24 @@ console.log(ex7.a);
 console.log(ex7.a[0]);
 // { rrr : 1, zzz : ooo }
 console.log(ex7.a[1]);
-// { uuu123, hfhf : true, p1p2p3p4 : 09876 } 
+// {mmm: uuu123, hfhf : true, p1p2p3p4 : 09876 } 
 console.log(ex7.b);
 // [ { q1 : queue, count : 1 }, { q1 : shmueue, count : 3 } ] }
 console.log(ex7.b[0]);
 // { q1 : queue, count : 1 }
 console.log(ex7.b[1]);
 // { q1 : shmueue, count : 3 } 
-console.log(ex7.a[0].b[0]);
-// { a : [ { rrr : 1, zzz : ooo } ],
-// b : [ { q1 : queue, count : 1 } ] }
-console.log(ex7.a[0].b[1]);
-// { a : [ { rrr : 1, zzz : ooo } ],
-// b : [ { q1 : shmueue, count : 3 } ] }
-console.log(ex7.a[1].b[0]);
-// { { mmm : uuu123, hfhf : true, p1p2p3p4 : 09876 } ],
-// b : [ { q1 : queue, count : 1 } ] }
-console.log(ex7.a[1].b[1]);
-// { a : [ { mmm : uuu123, hfhf : true, p1p2p3p4 : 09876 } ],
-// b : [ { q1 : shmueue, count : 3 } ] }
+console.log(ex7.a.rrr);
+// 1
+console.log(ex7.a.zzz);
+// ooo
+console.log(ex7.a.mmm);
+// uuu123
+console.log(ex7.a.hfhf);
+// true
+console.log(ex7.a.p1p2p3p4)
+// 09876
+console.log(ex7.b.q1)
+// shmueue
+console.log(ex7.b.count)
+// 3
