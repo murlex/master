@@ -79,17 +79,21 @@ console.log(ex7.b[0]);
 // { q1 : queue, count : 1 }
 console.log(ex7.b[1]);
 // { q1 : shmueue, count : 3 } 
-console.log(ex7.a.rrr);
+console.log(ex7.a[0].rrr);
 // 1
-console.log(ex7.a.zzz);
+console.log(ex7.a[0].zzz);
 // ooo
-console.log(ex7.a.mmm);
+console.log(ex7.a[1].mmm);
 // uuu123
-console.log(ex7.a.hfhf);
+console.log(ex7.a[1].hfhf);
 // true
-console.log(ex7.a.p1p2p3p4)
+console.log(ex7.a[1].p1p2p3p4)
 // 09876
-console.log(ex7.b.q1)
+console.log(ex7.b[0].q1)
+// queue
+console.log(ex7.b[0].count)
+// 1
+console.log(ex7.b[1].q1)
 // shmueue
-console.log(ex7.b.count)
+console.log(ex7.b[1].count)
 // 3
