@@ -7,3 +7,9 @@ test yourself by running this script with node.js
 Hint: to run it, you can use Terminal window in MS Code and type: node exs.js
 
 Enjoy :)
+
+Ex8:
+These are the events happened during football match.
+Print on console:
+1. What is 4th 'event' happened, who was the player, what minute it happened on
+2. 8th 'event' on 79th minute print the team that got yellow card.
