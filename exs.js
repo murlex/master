@@ -1,6 +1,7 @@
 'use strict';
 
 const fs = require('fs');
+const { join } = require('node:path/win32');
 
 console.log("ex1 -----------------------");
 let ex1 = JSON.parse(fs.readFileSync('ex1.json'));
@@ -97,3 +98,17 @@ console.log(ex7.b[1].q1)
 // shmueue
 console.log(ex7.b[1].count)
 // 3
+
+console.log('ex8 - 2 ----------------------------');
+let ex8 = JSON.parse(fs.readFileSync('ex8.json'));
+console.log(ex8.data[7].player_name);
+// Hirving Lozano
+
+console.log('ex8 - 1-----------------------------');
+console.log(ex8.data[3]);
+// event: 'YELLOW_CARD',
+// id: '127374',
+// minute: 38,
+// player_name: 'Rafael Toloi',
+// sort: 1,
+// team: 2
