@@ -99,16 +99,15 @@ console.log(ex7.b[1].q1)
 console.log(ex7.b[1].count)
 // 3
 
-console.log('ex8 - 2 ----------------------------');
-let ex8 = JSON.parse(fs.readFileSync('ex8.json'));
-console.log(ex8.data[7].player_name);
-// Hirving Lozano
-
 console.log('ex8 - 1-----------------------------');
-console.log(ex8.data[3]);
-// event: 'YELLOW_CARD',
-// id: '127374',
-// minute: 38,
-// player_name: 'Rafael Toloi',
-// sort: 1,
-// team: 2
+let ex8 = JSON.parse(fs.readFileSync('ex8.json'));
+console.log(ex8.data[3].event);
+// YELLOW_CARD
+console.log(ex8.data[3].player_name);
+// Rafael Toloi
+console.log(ex8.data[3].minute);
+// 38
+
+console.log('ex8 - 2 ----------------------------');
+console.log(ex8.data[7].team);
+// 1
