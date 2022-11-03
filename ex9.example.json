@@ -1,0 +1,43 @@
+{
+    "students": [
+        {
+            "ID" : "198273921873",
+            "firstName": "Agatha",
+            "lastName": "Chmutov",
+            "birthDay": "2015-10-12",
+            "school": "Geulim",
+            "location": "Ashdod",
+            "grade": 2,
+            "parents" : {
+                "mother" : {
+                    "name" : "Joan Chmutov",
+                    "phone" : "+972-444444444"
+                }
+            },
+            "disciplineGrades": {
+                "hebrew": 90,
+                "math": 100,
+                "sport": 100,
+                "torah": 100,
+                "nature": 100
+            },
+            "teachers": [
+                {
+                    "discipline": [
+                        "math"
+                    ],
+                    "name": "Caren Dimri",
+                    "yearsOfExpirence": 5
+                },
+                {
+                    "discipline": [
+                        "hebrew",
+                        "torah"
+                    ],
+                    "name": "Nora Fridman",
+                    "yearsOfExpirence": 24
+                }
+            ]
+        }
+    ]
+}
