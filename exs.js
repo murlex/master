@@ -114,4 +114,7 @@ console.log(ex8.data[7].team);
 
 console.log("ex9 -----------------------------");
 let ex9 = JSON.parse(fs.readFileSync('ex9.json'));
-console.log(ex9.patient[1])
+console.log("ex9-b -----------------------------");
+console.log(ex9.patient[2])
+console.log("ex9-c -----------------------------");
+console.log(ex9.patient)

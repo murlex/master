@@ -40,12 +40,12 @@
                         "headache",
                         "vertigo"
                     ],
-                    "gospitalization" : {
-                        "receipt date" : 01.10.2022,
-                        "status" : 0123,
-                        "room" : 489,
-                        ""        
-                        }
+                    "gospitalization": {
+                        "receiptDate": "01.10.2022",
+                        "status": 123,
+                        "room": 489,
+                        "testsPassed": "Yes"
+                    }
                 },
                 {
                     "ID": "000345678987",
@@ -60,14 +60,42 @@
                     "symptoms": [
                         "debility",
                         "wasting"
-                    ]
+                    ],
+                    "gospitalization": {
+                        "receiptDate": "12.10.2022",
+                        "status": 23,
+                        "room": 488,
+                        "testsPassed": "No"
+                    }
+                },
+                {
+                    "ID": "880345678987",
+                    "firstName": "Daniella",
+                    "lastName": "Star",
+                    "birthday": "2008-05-05",
+                    "gender": "Women",
+                    "location": "Ashdod",
+                    "phone": "+9720521766",
+                    "height": 175,
+                    "weight": 50,
+                    "symptoms": [
+                        "abdominalPain",
+                        "temperature"
+                    ],
+                    "gospitalization": {
+                        "receiptDate": "11.07.2022",
+                        "status": 33,
+                        "room": 468,
+                        "testsPassed": "Yes"
+                    }
                 }
             ],
             "procedures": [
                 {
                     "name": "Compresses",
                     "date": "05-11-2022",
-                    "amount": 1
+                    "amount": 1,
+                    "place": "hand"
                 },
                 {
                     "name": "Bandaging",
@@ -98,6 +126,12 @@
                     "dateOfIssue": "05-11-2022",
                     "validity": "05-12-2022",
                     "nameDoctor": "Alex Yarov"
+                },
+                {
+                    "nameDrug": "Adrenalin",
+                    "dateOfIssue": "05-01-2022",
+                    "validity": "05-02-2022",
+                    "nameDoctor": "Iden Shtern"
                 }
             ]
         }
