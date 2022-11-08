@@ -118,3 +118,4 @@ console.log("ex9-b -----------------------------");
 console.log(ex9.patient[2])
 console.log("ex9-c -----------------------------");
 console.log(ex9.patient)
+console.log("ex9-d -----------------------------");

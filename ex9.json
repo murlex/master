@@ -44,7 +44,8 @@
                         "receiptDate": "01.10.2022",
                         "status": 123,
                         "room": 489,
-                        "testsPassed": "Yes"
+                        "testsPassed": "Yes",
+                        "nameDrug": "Ketanov"
                     }
                 },
                 {
@@ -65,7 +66,8 @@
                         "receiptDate": "12.10.2022",
                         "status": 23,
                         "room": 488,
-                        "testsPassed": "No"
+                        "testsPassed": "No",
+                        "nameDrug": "Marihuana"
                     }
                 },
                 {
@@ -86,7 +88,8 @@
                         "receiptDate": "11.07.2022",
                         "status": 33,
                         "room": 468,
-                        "testsPassed": "Yes"
+                        "testsPassed": "Yes",
+                        "nameDrug": "Adrenalin"
                     }
                 }
             ],
@@ -116,19 +119,16 @@
             ],
             "medicalPrescription": [
                 {
-                    "nameDrug": "Ketanov",
                     "dateOfIssue": "05-11-2022",
                     "validity": "05-12-2022",
                     "nameDoctor": "Anna Levin"
                 },
                 {
-                    "nameDrug": "Marihuana",
                     "dateOfIssue": "05-11-2022",
                     "validity": "05-12-2022",
                     "nameDoctor": "Alex Yarov"
                 },
                 {
-                    "nameDrug": "Adrenalin",
                     "dateOfIssue": "05-01-2022",
                     "validity": "05-02-2022",
                     "nameDoctor": "Iden Shtern"
