@@ -1,4 +1,57 @@
         {
+            "gospitalization" : [
+                {
+                    "pacient1" : {
+                        "patientData" : {
+                            "ID": "012345678987",
+                            "namePacient" : "Dani Coen",
+                            "birthday" : "1958-10-13",
+                            "gender" : "Men",
+                            "location" : "Ashdod",
+                            "phone" : "+9720521345",
+                            "height" : 180,
+                            "weight" : 79
+                        },
+                        "patientGospitalization" : {
+                            "firstGosp" : {
+                                "nameDoctor" : "Alex Yarov",
+                                "Date": "01.10.2022",
+                                "status": 123,
+                                "room": 489,
+                                "symptoms": [
+                                    "headache",
+                                    "vertigo"
+                                ],
+                                "nameDrug": "Ketanov"
+                            },
+                            "secondGosp" : {
+                                "nameDoctor" : "Iosi Levi",
+                                "Date": "01.12.2022",
+                                "status": 103,
+                                "room": 459,
+                                "symptoms": [
+                                    "nausea",
+                                    "abdominal pain"
+                                ],
+                                "nameDrug": "Mezim"
+                            },
+                            "thirdGosp" : {
+                                "nameDoctor" : "Anna Levin",
+                                "Date": "12.12.2022",
+                                "status": 122,
+                                "room": 493,
+                                "symptoms": [
+                                    "high pressure",
+                                    "headache"
+                                ],
+                                "nameDrug": "noshpa"
+                            },
+                        },
+                    },
+                },
+            ],     
+        }
+            
             "treatingDoctors": [
                 {
                     "ID": "123456789876",
