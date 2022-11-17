@@ -1,151 +1,151 @@
-        {
-            "gospitalization": [
-                {
-                    "pacient1": {
-                        "patientData": {
-                            "ID": "012345678987",
-                            "namePacient": "Dani Coen",
-                            "birthday": "1958-10-13",
-                            "gender": "Men",
-                            "location": "Ashdod",
-                            "phone": "+9720521345",
-                            "height": 180,
-                            "weight": 79
-                        },
-                        "patientGospitalization": {
-                            "firstGosp": {
-                                "nameDoctor": "Alex Yarov",
-                                "Date": "01.10.2022",
-                                "status": 123,
-                                "room": 489,
-                                "symptoms": [
-                                    "headache",
-                                    "vertigo"
-                                ],
-                                "nameDrug": "Ketanov"
-                            },
-                            "secondGosp": {
-                                "nameDoctor": "Iosi Levi",
-                                "Date": "01.12.2022",
-                                "status": 103,
-                                "room": 459,
-                                "symptoms": [
-                                    "nausea",
-                                    "abdominal pain"
-                                ],
-                                "nameDrug": "Mezim"
-                            },
-                            "thirdGosp": {
-                                "nameDoctor": "Anna Levin",
-                                "Date": "12.12.2022",
-                                "status": 122,
-                                "room": 493,
-                                "symptoms": [
-                                    "high pressure",
-                                    "headache"
-                                ],
-                                "nameDrug": "Noshpa"
-                            }
-                        }
-                    }
+{
+    "gospitalization": [
+    {
+        "patient1": {
+            "patientData": {
+                "ID": "012345678987",
+                "namePacient": "Dani Coen",
+                "birthday": "1958-10-13",
+                "gender": "Men",
+                "location": "Ashdod",
+                "phone": "+9720521345",
+                "height": 180,
+                "weight": 79
+            },
+            "patientGospitalization": {
+                "firstGosp": {
+                    "nameDoctor": "Alex Yarov",
+                    "Date": "01.10.2022",
+                    "status": 123,
+                    "room": 489,
+                    "symptoms": [
+                        "headache",
+                        "vertigo"
+                    ],
+                    "nameDrug": "Ketanov"
                 },
-                {
-                    "pacient2": {
-                        "patientData": {
-                            "ID": "012345578987",
-                            "namePacient": "Iden Shtern",
-                            "birthday": "1958-04-04",
-                            "gender": "Women",
-                            "location": "Ashdod",
-                            "phone": "+9720521673",
-                            "height": 170,
-                            "weight": 59
-                        },
-                        "patientGospitalization": {
-                            "firstGosp": {
-                                "nameDoctor": "Iosi Levi",
-                                "Date": "01.03.2022",
-                                "status": 23,
-                                "room": 499,
-                                "symptoms": [
-                                    "debility",
-                                    "wasting"
-                                ],
-                                "nameDrug": "Marihuanna"
-                            },
-                            "secondGosp": {
-                                "nameDoctor": "Anna Levin",
-                                "Date": "03.05.2022",
-                                "status": 103,
-                                "room": 359,
-                                "symptoms": [
-                                    "abdominal pain",
-                                    "temperature"
-                                ],
-                                "nameDrug": "Adrenalin"
-                            },
-                            "thirdGosp": {
-                                "nameDoctor": "Alex Yarov",
-                                "Date": "12.11.2022",
-                                "status": 122,
-                                "room": 433,
-                                "symptoms": [
-                                    "high pressure",
-                                    "headache"
-                                ],
-                                "nameDrug": "Noshpa"
-                            }
-                        }
-                    }
+                "secondGosp": {
+                    "nameDoctor": "Iosi Levi",
+                    "Date": "01.12.2022",
+                    "status": 103,
+                    "room": 459,
+                    "symptoms": [
+                        "nausea",
+                        "abdominal pain"
+                    ],
+                    "nameDrug": "Mezim"
                 },
-                {
-                    "pacient3": {
-                        "patientData": {
-                            "ID": "880345678987",
-                            "namePacient": "Daniella Star",
-                            "birthday": "2008-05-05",
-                            "gender": "Women",
-                            "location": "Ashdod",
-                            "phone": "+9720521766",
-                            "height": 175,
-                            "weight": 50
-                        },
-                        "patientGospitalization": {
-                            "firstGosp": {
-                                "nameDoctor": "Anna Levin",
-                                "Date": "15.03.2022",
-                                "status": 111,
-                                "room": 129,
-                                "symptoms": [
-                                    "nausea",
-                                    "abdominal pain"
-                                ],
-                                "nameDrug": "Mezim"
-                            },
-                            "secondGosp": {
-                                "nameDoctor": "Alex Yarov",
-                                "Date": "08.06.2022",
-                                "status": 273,
-                                "room": 319,
-                                "symptoms": [
-                                    "headache",
-                                    "vertigo"
-                                ],
-                                "nameDrug": "Ketanov"
-                            },
-                            "thirdGosp": {
-                                "nameDoctor": "Iosi Levi",
-                                "Date": "14.11.2022",
-                                "status": 100,
-                                "room": 434,
-                                "symptoms": [
-                                    "debility",
-                                    "wasting"
-                                ],
-                                "nameDrug": "Marihuanna"
-                            }
-                        }
-                    }
+                "thirdGosp": {
+                    "nameDoctor": "Anna Levin",
+                    "Date": "12.12.2022",
+                    "status": 122,
+                    "room": 493,
+                    "symptoms": [
+                        "high pressure",
+                        "headache"
+                    ],
+                    "nameDrug": "Noshpa"
                 }
-            ]
+            }
         }
+    },
+    {
+        "patient2": {
+            "patientData": {
+                "ID": "012345578987",
+                "namePacient": "Iden Shtern",
+                "birthday": "1958-04-04",
+                "gender": "Women",
+                "location": "Ashdod",
+                "phone": "+9720521673",
+                "height": 170,
+                "weight": 59
+            },
+            "patientGospitalization": {
+                "firstGosp": {
+                    "nameDoctor": "Iosi Levi",
+                    "Date": "01.03.2022",
+                    "status": 23,
+                    "room": 499,
+                    "symptoms": [
+                        "debility",
+                        "wasting"
+                    ],
+                    "nameDrug": "Marihuanna"
+                },
+                "secondGosp": {
+                    "nameDoctor": "Anna Levin",
+                    "Date": "03.05.2022",
+                    "status": 103,
+                    "room": 359,
+                    "symptoms": [
+                        "abdominal pain",
+                        "temperature"
+                    ],
+                    "nameDrug": "Adrenalin"
+                },
+                "thirdGosp": {
+                    "nameDoctor": "Alex Yarov",
+                    "Date": "12.11.2022",
+                    "status": 122,
+                    "room": 433,
+                    "symptoms": [
+                        "high pressure",
+                        "headache"
+                    ],
+                    "nameDrug": "Noshpa"
+                }
+            }
+        }
+    },
+    {
+        "patient3": {
+            "patientData": {
+                "ID": "880345678987",
+                "namePacient": "Daniella Star",
+                "birthday": "2008-05-05",
+                "gender": "Women",
+                "location": "Ashdod",
+                "phone": "+9720521766",
+                "height": 175,
+                "weight": 50
+            },
+            "patientGospitalization": {
+                "firstGosp": {
+                    "nameDoctor": "Anna Levin",
+                    "Date": "15.03.2022",
+                    "status": 111,
+                    "room": 129,
+                    "symptoms": [
+                        "nausea",
+                        "abdominal pain"
+                    ],
+                    "nameDrug": "Mezim"
+                },
+                "secondGosp": {
+                    "nameDoctor": "Alex Yarov",
+                    "Date": "08.06.2022",
+                    "status": 273,
+                    "room": 319,
+                    "symptoms": [
+                        "headache",
+                        "vertigo"
+                    ],
+                    "nameDrug": "Ketanov"
+                },
+                "thirdGosp": {
+                    "nameDoctor": "Iosi Levi",
+                    "Date": "14.11.2022",
+                    "status": 100,
+                    "room": 434,
+                    "symptoms": [
+                        "debility",
+                        "wasting"
+                    ],
+                    "nameDrug": "Marihuanna"
+                }
+            }
+        }
+    }
+]
+}

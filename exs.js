@@ -111,11 +111,19 @@ console.log(ex8.data[3].minute);
 console.log("ex8 - 2 ----------------------------");
 console.log(ex8.data[7].team);
 // 1
-
 console.log("ex9 -----------------------------");
 let ex9 = JSON.parse(fs.readFileSync('ex9.json'));
 console.log("ex9-b -----------------------------");
-console.log(ex9.patient[2])
+console.log(ex9.gospitalization[1].patient2.patientData);
+console.log(ex9.gospitalization[1].patient2.patientGospitalization);
 console.log("ex9-c -----------------------------");
-console.log(ex9.patient)
+console.log(ex9.gospitalization[2].patient3.patientGospitalization);
 console.log("ex9-d -----------------------------");
+console.log(ex9.gospitalization[2].patient3.patientGospitalization.firstGosp.nameDrug);
+console.log(ex9.gospitalization[2].patient3.patientGospitalization.secondGosp.nameDrug);
+console.log(ex9.gospitalization[2].patient3.patientGospitalization.thirdGosp.nameDrug);
+console.log("ex9-d var 2 -----------------------------");
+var gosp=ex9.gospitalization[2].patient3.patientGospitalization;
+console.log(gosp.firstGosp.nameDrug);
+console.log(gosp.secondGosp.nameDrug);
+console.log(gosp.thirdGosp.nameDrug);
