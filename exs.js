@@ -46,7 +46,7 @@ let ex5 = JSON.parse(fs.readFileSync('ex5.json'));
 console.log(ex5);
 // { a : {b : c} }
 console.log(ex5.a);
-// { b : c }מ
+// { b : c }
 console.log(ex5.b);
 // c
 
@@ -113,11 +113,16 @@ console.log(ex8.data[7].team);
 // 1
 console.log("ex9 -----------------------------");
 let ex9 = JSON.parse(fs.readFileSync('ex9.json'));
-console.log("ex9-b -----------------------------");
-console.log(ex9[1]);
-console.log("ex9-c -----------------------------");
-console.log(ex9[2].patientGospitalization.length);
-console.log("ex9-d -----------------------------");
-console.log(ex9[2].patientGospitalization[0].nameDrug);
-console.log(ex9[2].patientGospitalization[1].nameDrug);
-console.log(ex9[2].patientGospitalization[2].nameDrug);
+//console.log("ex9-b -----------------------------");
+//console.log(ex9[1]);
+//console.log("ex9-c -----------------------------");
+//console.log(ex9[2].patientGospitalization.length);
+//console.log("ex9-d -----------------------------");
+//console.log(ex9[2].patientGospitalization[0].nameDrug);
+//console.log(ex9[2].patientGospitalization[1].nameDrug);
+//console.log(ex9[2].patientGospitalization[2].nameDrug);
+var drug = ex9[2].patientGospitalization[0].nameDrug
+for (var i = 0; i < drug; i++) {
+    System.out.println(drug[i]);
+    //console.log(ex9[2].patientGospitalization[0]);
+}
