@@ -121,8 +121,7 @@ let ex9 = JSON.parse(fs.readFileSync('ex9.json'));
 //console.log(ex9[2].patientGospitalization[0].nameDrug);
 //console.log(ex9[2].patientGospitalization[1].nameDrug);
 //console.log(ex9[2].patientGospitalization[2].nameDrug);
-var drug = ex9[2].patientGospitalization[0].nameDrug
-for (var i = 0; i < drug; i++) {
-    System.out.println(drug[i]);
-    //console.log(ex9[2].patientGospitalization[0]);
-}
+console.log(ex9[2].patientGospitalization[0].nameDrug);
+    for (let index = 0; index < ex9[index].patientGospitalization[index].nameDrug; index ++) {
+      var item=ex9[index].patientGospitalization[index].nameDrug;
+    }
