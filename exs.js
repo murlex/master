@@ -113,13 +113,14 @@ console.log(ex8.data[7].team);
 // 1
 console.log("ex9 -----------------------------");
 let ex9 = JSON.parse(fs.readFileSync('ex9.json'));
-//console.log("ex9-b -----------------------------");
-//console.log(ex9[1]);
-//console.log("ex9-c -----------------------------");
-//console.log(ex9[2].patientGospitalization.length);
-//console.log("ex9-d -----------------------------");
-//console.log(ex9[2].patientGospitalization[0].nameDrug);
-//console.log(ex9[2].patientGospitalization[1].nameDrug);
-//console.log(ex9[2].patientGospitalization[2].nameDrug);
-for (let i = 0; i > ex9[2].patientGospitalization.length; i ++)
-{console.log(ex9[2].patientGospitalization[i].nameDrug);}
+console.log("ex9-b -----------------------------");
+console.log(ex9[1]);
+console.log("ex9-c -----------------------------");
+console.log(ex9[2].patientGospitalization.length);
+console.log("ex9-d -----------------------------");
+console.log(ex9[2].patientGospitalization[0].nameDrug);
+console.log(ex9[2].patientGospitalization[1].nameDrug);
+console.log(ex9[2].patientGospitalization[2].nameDrug);
+console.log("ex9-i -----------------------------");
+for (let i = 0; i < ex9[2].patientGospitalization.length; i ++)
+{console.log(ex9[2].patientGospitalization[i].nameDrug)};
