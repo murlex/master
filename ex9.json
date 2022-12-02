@@ -20,7 +20,11 @@
                     "headache",
                     "vertigo"
                 ],
-                "nameDrug": "Ketanov"
+                "nameDrug": [
+                    "Ketanov",
+                    "Arbidol",
+                    "Marihuanna"
+                ]
             },
             {
                 "nameDoctor": "Iosi Levi",
@@ -31,7 +35,11 @@
                     "nausea",
                     "abdominal pain"
                 ],
-                "nameDrug": "Mezim"
+                "nameDrug": [
+                    "Mezim",
+                    "Klerasil",
+                    "Noshpa"
+                ]
             },
             {
                 "nameDoctor": "Anna Levin",
@@ -42,7 +50,11 @@
                     "high pressure",
                     "headache"
                 ],
-                "nameDrug": "Noshpa"
+                "nameDrug": [
+                    "Noshpa",
+                    "Adrenalin",
+                    "Krem"
+                ]
             }
         ]
     },
@@ -78,7 +90,11 @@
                     "abdominal pain",
                     "temperature"
                 ],
-                "nameDrug": "Adrenalin"
+                "nameDrug": [
+                    "Adrenalin",
+                    "Mezim",
+                    "Klerasil"
+                ]
             },
             {
                 "nameDoctor": "Alex Yarov",
@@ -89,7 +105,11 @@
                     "high pressure",
                     "headache"
                 ],
-                "nameDrug": "Noshpa"
+                "nameDrug": [
+                    "Noshpa",
+                    "Marihuanna",
+                    "Arbidol"
+                ]
             }
         ]
     },
@@ -114,7 +134,11 @@
                     "nausea",
                     "abdominal pain"
                 ],
-                "nameDrug": "Mezim"
+                "nameDrug": [
+                    "Mezim",
+                    "Marihuanna",
+                    "Krem"
+                ]
             },
             {
                 "nameDoctor": "Alex Yarov",
@@ -125,7 +149,11 @@
                     "headache",
                     "vertigo"
                 ],
-                "nameDrug": "Ketanov"
+                "nameDrug": [
+                    "Ketanov",
+                    "Klerasil",
+                    "Mezim"
+                ]
             },
             {
                 "nameDoctor": "Iosi Levi",
@@ -136,7 +164,11 @@
                     "debility",
                     "wasting"
                 ],
-                "nameDrug": "Marihuanna"
+                "nameDrug": [
+                    "Marihuanna",
+                    "Noshpa",
+                    "Adrenalin"
+                ]
             }
         ]
     }

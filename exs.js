@@ -108,19 +108,27 @@ console.log(ex8.data[3].player_name);
 console.log(ex8.data[3].minute);
 // 38
 
-console.log("ex8 - 2 ----------------------------");
-console.log(ex8.data[7].team);
+//console.log("ex8 - 2 ----------------------------");
+//console.log(ex8.data[7].team);
 // 1
-console.log("ex9 -----------------------------");
+//console.log("ex9 -----------------------------");
 let ex9 = JSON.parse(fs.readFileSync('ex9.json'));
-console.log("ex9-b -----------------------------");
-console.log(ex9[1]);
-console.log("ex9-c -----------------------------");
-console.log(ex9[2].patientGospitalization.length);
-console.log("ex9-d -----------------------------");
-console.log(ex9[2].patientGospitalization[0].nameDrug);
+//console.log("ex9-b -----------------------------");
+//console.log(ex9[1]);
+//console.log("ex9-c -----------------------------");
+//console.log(ex9[2].patientGospitalization.length);
+///console.log("ex9-d -----------------------------");
+//console.log(ex9[2].patientGospitalization[0].nameDrug);
+//console.log(ex9[2].patientGospitalization[1].nameDrug);
+//console.log(ex9[2].patientGospitalization[2].nameDrug);
+//console.log("ex9-i -----------------------------");
+//for (let i = 0; i < ex9[2].patientGospitalization.length; i ++)
+//{console.log(ex9[2].patientGospitalization[i].nameDrug)};
+console.log("ex9-i-1 -----------------------------");
 console.log(ex9[2].patientGospitalization[1].nameDrug);
-console.log(ex9[2].patientGospitalization[2].nameDrug);
-console.log("ex9-i -----------------------------");
-for (let i = 0; i < ex9[2].patientGospitalization.length; i ++)
-{console.log(ex9[2].patientGospitalization[i].nameDrug)};
+console.log("ex9-i-2 -----------------------------");
+for (let i = 0; i < ex9[2].patientGospitalization.length; i ++); {
+    for (let j = 0; j < ex9[2].patientGospitalization[i].nameDrug.length; j ++); {
+    {console.log(ex9[2].patientGospitalization[i].nameDrug[j])};
+    }
+}
