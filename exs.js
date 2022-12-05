@@ -133,7 +133,7 @@ let ex9 = JSON.parse(fs.readFileSync('ex9.json'));
 //    }
 //}
 console.log("ex9-i-3 -----------------------------");
-for (let i = 0; i < ex9[i].length; i++) {
+for (let i = 0; i < ex9.length; i++) {
     for (let j = 0; j < ex9[i].patientGospitalization.length; j++) {
         for (let k = 0; k < ex9[i].patientGospitalization[j].nameDrug.length; k++) {
         {console.log(ex9[i].patientGospitalization[j].nameDrug[k])};

@@ -79,7 +79,11 @@
                     "debility",
                     "wasting"
                 ],
-                "nameDrug": "Marihuanna"
+                "nameDrug": [
+                    "Marihuanna",
+                    "Kislota",
+                    "Pustyrnik"
+                ]
             },
             {
                 "nameDoctor": "Anna Levin",
